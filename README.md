@@ -4,11 +4,13 @@ Suite de l'introduction aux séries temporelles
 La semaine précédente, nous avons vu :
 - la notion de séries temporelles
 - différents types de séries temporelles
-- la décomposition de séries temporelles en niveau (constante), tendance, cycles (saisons) et erreur (bruit)
+- la décomposition de séries temporelles en niveau (constante), tendance, cycles (saisons) et erreur (bruit) 
 
 Les 2 prochains jours nous allons approfondir l'analyse des séries temporelles avec BigML et Jupyter.
 
 ## A Faire :
+
+### Revoir rapidement la décomposition de séries temporelles [ici](https://www.youtube.com/watch?v=0ar9extHObg)
 
 ### BigML Time Series
  * Regarder la vidéo sur les séries temporelles dans BigML ([vidéo](https://www.youtube.com/watch?v=wsyiOHUBE8c&list=PL1bKyu9GtNYHAk0PUojkLYZzASoYVcsTQ&index=10))
@@ -21,6 +23,7 @@ Les 2 prochains jours nous allons approfondir l'analyse des séries temporelles 
 ### Recherches
 
  * Rechercher les 2 manières habituelles de splitter un dataset de série temporelle en vue d'entraîner et d'évaluer un modèle de prédiction. Dans le cas du walk-forward, quelles sont les 2 possibilités de split ?
+ Voir [ici](https://machinelearningmastery.com/backtest-machine-learning-models-time-series-forecasting/)
  * Rechercher la différence entre une série univariée et multivariée
  * Choisir un dataset parmi ceux proposés dans les bases ci-après (faire valider par l'animateur). Ce dataset servira pour toute la suite 
 
@@ -29,6 +32,7 @@ Les 2 prochains jours nous allons approfondir l'analyse des séries temporelles 
  * Vous avez déjà étudié de près un modèle de régression linéaire où une variable dépendante est prédite à l'aide d'une combinaison linéaire d'autres variables 
  * De même, dans une série temporelle, un modèle auto-régressif est une régression linéaire d'une variable sur ses valeurs passées
  * Quels points communs et quelles différences voyez-vous entre la régression linéaire et un modèle auto-régressif ?
+ * Une vidéo sur ces modèles [ici](https://www.youtube.com/watch?v=Mc6sBAUdDP4)
  * Pour illustrer le modèle AR, implémenter le notebook :
 https://machinelearningmastery.com/autoregression-models-time-series-forecasting-python/
 
@@ -37,6 +41,7 @@ https://machinelearningmastery.com/autoregression-models-time-series-forecasting
  * Un modèle auto-régressif fait appel à la notion d'auto-corrélation, c'est-à-dire à la corrélation entre des valeurs d'une série temporelle séparées par un intervalle de temps constant. Par exemple, la température moyenne aujourd'hui à un endroit donné est fortement corrélée avec la température au même endroit la veille et moins corrélée avec la température 3 mois avant.
  * Implémenter le notebook :
 https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/
+
 
 # Ressources
 
