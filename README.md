@@ -60,6 +60,18 @@ https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-a
     * Prédiction par une méthode moderne de ML, au choix RNN (LSTM/GRU) ou ensembliste (Random Forest / xgboost)
      * Evaluation par walk-forward
 
+*Note :* La première partie de ce canevas reprend les grandes étapes classiques d'une analyse de séries temporelles :
+1. Observer la série
+2. Nettoyer les données si nécessaire
+3. Transformer la série en série stationnaire en enlevant sa moyenne, sa tendance, ses éléments saisonniers
+4. Vérififer que le résultat de 3 est stationnaire par une méthode empirique ou un test statistique (ex. : Augmented Dickey-Fuller)
+5. Etudier l'auto-corrélation en traçant l'ACF et la PACF enfin de fixer les ordres p et q d'un modèle ARMA ou ARIMA
+6. Splitter les données
+7. Fitter le modèle, tester des variantes du modèle, classer suivant une métrique
+8. Evaluer le(s) modèle(s) avec des fenêtres glissantes training/test
+9. Evaluer aussi la performance du modèle après avoir inversé les opérations de l'étape 3
+10. Pour la production, suivre à intervalles réguliers la performance du modèle, ré-entraîner en cas de divergence avérée
+
 ## Grille d'évaluation mutuelle du livrable
 
 A COMPLETER
