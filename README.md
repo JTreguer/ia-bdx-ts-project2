@@ -117,3 +117,5 @@ et [ici](https://nwfsc-timeseries.github.io/atsa-labs/sec-boxjenkins-aug-dickey-
 * Vidéo d'ouverture sur d'autres méthodes, l'exemple d'Uber : [ici](https://youtu.be/VYpAodcdFfA)
 
 * Un livre entier sur les méthodes de prédiction : [ici](https://otexts.com/fpp2/)
+
+* Grid search sur les time series https://machinelearningmastery.com/how-to-grid-search-deep-learning-models-for-time-series-forecasting/
