@@ -119,3 +119,5 @@ et [ici](https://nwfsc-timeseries.github.io/atsa-labs/sec-boxjenkins-aug-dickey-
 * Un livre entier sur les méthodes de prédiction : [ici](https://otexts.com/fpp2/)
 
 * Grid search sur les time series https://machinelearningmastery.com/how-to-grid-search-deep-learning-models-for-time-series-forecasting/
+
+* Un exemple de notebook avec un modèle ARIMA https://github.com/JTreguer/arima_example
