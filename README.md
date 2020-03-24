@@ -73,7 +73,7 @@ https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-a
 10. Pour la production, suivre à intervalles réguliers la performance du modèle, ré-entraîner en cas de divergence avérée
 
 *Note :* Pour le choix des ordres p et q pour les parties AR et MA du modèle,
-O on prend p tel que :
+on prend p tel que :
   * La PACF passe sous les intervalles de confiance à partir de p+1
 * On prend q pour la partie MA tel que :
   * l'ACF passe sous les intervalles de confiance à partir de q+1
