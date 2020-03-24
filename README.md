@@ -67,7 +67,7 @@ https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-a
 4. Vérififer que le résultat de 3 est stationnaire par une méthode empirique ou un test statistique (ex. : Augmented Dickey-Fuller)
 5. Etudier l'auto-corrélation en traçant l'ACF et la PACF enfin de fixer les ordres p et q d'un modèle ARMA ou ARIMA
 6. Splitter les données
-7. Fitter le modèle, tester des variantes du modèle, classer suivant une métrique
+7. Fitter le modèle, tester des variantes du modèle autour des valeurs p et q trouvées en 5, les classer suivant une métrique
 8. Evaluer le(s) modèle(s) avec des fenêtres glissantes training/test
 9. Evaluer aussi la performance du modèle après avoir inversé les opérations de l'étape 3
 10. Pour la production, suivre à intervalles réguliers la performance du modèle, ré-entraîner en cas de divergence avérée
