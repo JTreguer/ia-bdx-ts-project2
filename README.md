@@ -44,21 +44,21 @@ https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-a
 
 ## Livrable du projet Time Series
  * Un notebook Python avec le contenu suivant :
-  * Chargement d'une série temporelle
-  * Visualisation de la série
-  * Commentaire sur les caractéristiques de la série
-  * Nettoyage éventuel des données
-  * Prédiction par une méthode classique (ARMA/ARIMA) :
-   * Décomposition de la série en tendance, saisons, résidus
-   * Test de stationnarité
-   * Plot d'auto-corrélation (ACF/PACF)
-   * Choix d'un modèle (hyper-paramètres)
-   * Split des données
-   * Prédiction sur l'ensemble de tests avec :
-    * visualisation
-    * calcul d'une métrique de performance
-  * Prédiction par une méthode moderne de ML, au choix RNN (LSTM/GRU) ou ensembliste (Random Forest / xgboost)
-   * Evaluation par walk-forward
+    * Chargement d'une série temporelle
+    * Visualisation de la série
+    * Commentaire sur les caractéristiques de la série
+    * Nettoyage éventuel des données
+    * Prédiction par une méthode classique (ARMA/ARIMA) :
+     * Décomposition de la série en tendance, saisons, résidus
+     * Test de stationnarité
+     * Plot d'auto-corrélation (ACF/PACF)
+     * Choix d'un modèle (hyper-paramètres)
+     * Split des données
+     * Prédiction sur l'ensemble de tests avec :
+      * visualisation
+      * calcul d'une métrique de performance
+    * Prédiction par une méthode moderne de ML, au choix RNN (LSTM/GRU) ou ensembliste (Random Forest / xgboost)
+     * Evaluation par walk-forward
 
 ## Grille d'évaluation mutuelle du livrable
 
