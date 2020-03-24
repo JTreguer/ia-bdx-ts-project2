@@ -111,6 +111,7 @@ et [ici](https://nwfsc-timeseries.github.io/atsa-labs/sec-boxjenkins-aug-dickey-
 
 * Un cours complet sur les séries temporelles avec des exemples en python : [ici](https://www.tutorialspoint.com/time_series/index.htm)
 
+* Un exemple très complet sur la sélection des ordres d'un modèle ARMA, en français ! [ici](https://www.ceremade.dauphine.fr/~roche/Enseignement/Series_temps_exMaster/TP2_SeriesTemp.html)
 
 * Librairie statsmodels [ici](https://www.statsmodels.org/stable/index.html)
 
