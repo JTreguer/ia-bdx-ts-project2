@@ -72,12 +72,14 @@ https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-a
 9. Evaluer aussi la performance du modèle après avoir inversé les opérations de l'étape 3
 10. Pour la production, suivre à intervalles réguliers la performance du modèle, ré-entraîner en cas de divergence avérée
 
-*Note :* Pour le choix des ordres p et q pour les parties AR et MA du modèle, on prend p tel que :
-* La PACF passe sous les intervalles de confiance à partir de p+1
-On prend q pour la partie MA tel que :
-* l'ACF passe sous les intervalles de confiance à partir de q+1
+*Note :* Pour le choix des ordres p et q pour les parties AR et MA du modèle,
+O on prend p tel que :
+  * La PACF passe sous les intervalles de confiance à partir de p+1
+* On prend q pour la partie MA tel que :
+  * l'ACF passe sous les intervalles de confiance à partir de q+1
 * Si l'ACF décroit régulièrement de façon exponentielle sans pic, le modèle sera un AR pur, q = 0
 * Si le le PACF décroit régulièrement de façon exponentielle sans pic, le modèle sera un MA pur, p = 0
+
 Voir une discussion plus détaillée (et nuancée), en français, [ici](https://didierdelignieresblog.files.wordpress.com/2019/09/arimacomplet.pdf=
 
 ## Grille d'évaluation mutuelle du livrable
