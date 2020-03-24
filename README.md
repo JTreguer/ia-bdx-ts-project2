@@ -42,6 +42,28 @@ https://machinelearningmastery.com/autoregression-models-time-series-forecasting
  * Implémenter le notebook :
 https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/
 
+## Livrable du projet Time Series
+ * Un notebook Python avec le contenu suivant :
+  * Chargement d'une série temporelle
+  * Visualisation de la série
+  * Commentaire sur les caractéristiques de la série
+  * Nettoyage éventuel des données
+  * Prédiction par une méthode classique (ARMA/ARIMA) :
+   * Décomposition de la série en tendance, saisons, résidus
+   * Test de stationnarité
+   * Plot d'auto-corrélation (ACF/PACF)
+   * Choix d'un modèle (hyper-paramètres)
+   * Split des données
+   * Prédiction sur l'ensemble de tests avec :
+    * visualisation
+    * calcul d'une métrique de performance
+  * Prédiction par une méthode moderne de ML, au choix RNN (LSTM/GRU) ou ensembliste (Random Forest / xgboost)
+   * Evaluation par walk-forward
+
+## Grille d'évaluation mutuelle du livrable
+
+A COMPLETER
+
 
 # Ressources
 
@@ -53,6 +75,9 @@ Les séries temporelles dans BigML ([vidéo](https://www.youtube.com/watch?v=wsy
  * 7 datasets collectés dans un article de Jason Brownlee : [ici](https://machinelearningmastery.com/time-series-datasets-for-machine-learning/)
  * 41 séries temporelles : [ici](https://data.world/datasets/time-series)
  * 102 datasets de l'UCI :[ici](https://archive.ics.uci.edu/ml/datasets.php?format=&task=&att=&area=&numAtt=&numIns=&type=ts&sort=taskUp&view=table)
+ 
+## Séries multivariées
+https://www.analyticsvidhya.com/blog/2018/09/multivariate-time-series-guide-forecasting-modeling-python-codes/
  
  ## Ressources précédentes
   
