@@ -43,22 +43,22 @@ https://machinelearningmastery.com/autoregression-models-time-series-forecasting
 https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/
 
 ## Livrable du projet Time Series
- * Un notebook Python avec le contenu suivant :
-    * Chargement d'une série temporelle
+* Un notebook Python avec le contenu suivant :
+* Chargement d'une série temporelle
     * Visualisation de la série
     * Commentaire sur les caractéristiques de la série
     * Nettoyage éventuel des données
     * Prédiction par une méthode classique (ARMA/ARIMA) :
-     * Décomposition de la série en tendance, saisons, résidus
-     * Test de stationnarité
-     * Plot d'auto-corrélation (ACF/PACF)
-     * Choix d'un modèle (hyper-paramètres)
-     * Split des données
-     * Prédiction sur l'ensemble de tests avec :
-      * visualisation
-      * calcul d'une métrique de performance
+         * Décomposition de la série en tendance, saisons, résidus
+         * Test de stationnarité
+         * Plot d'auto-corrélation (ACF/PACF)
+         * Choix d'un modèle (hyper-paramètres)
+         * Split des données
+         * Prédiction sur l'ensemble de tests avec :
+             * Visualisation
+             * calcul d'une métrique de performance
     * Prédiction par une méthode moderne de ML, au choix RNN (LSTM/GRU) ou ensembliste (Random Forest / xgboost)
-     * Evaluation par walk-forward
+          * Evaluation par walk-forward
 
 *Note :* La première partie de ce canevas reprend les grandes étapes classiques d'une analyse de séries temporelles :
 1. Observer la série
