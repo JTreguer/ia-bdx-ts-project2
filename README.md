@@ -82,6 +82,11 @@ on prend p tel que :
 
 Voir une discussion plus détaillée (et nuancée), en français, [ici](https://didierdelignieresblog.files.wordpress.com/2019/09/arimacomplet.pdf=
 
+## Exercice ACF/PACF
+* Générer plusieurs séries temporelles simples (+1 -1, sinus, droites, etc.)
+* Générer un signal AR, un signal MA, un signal ARMA
+* Plotter les ACF/PACF correspondantes
+
 ## Grille d'évaluation mutuelle du livrable
 
 A COMPLETER
