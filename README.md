@@ -87,11 +87,6 @@ Voir une discussion plus détaillée (et nuancée), en français, [ici](https://
 * Générer un signal AR, un signal MA, un signal ARMA
 * Plotter les ACF/PACF correspondantes
 
-## Grille d'évaluation mutuelle du livrable
-
-A COMPLETER
-
-
 # Ressources
 
 ## BigML
